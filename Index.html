@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KicksVault - Jual Beli Sepatu Branded Original</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            500: '#0284c7',
+                            600: '#0369a1',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-slate-900 text-white rounded-xl flex items-center justify-center font-bold text-xl shadow-lg shadow-slate-900/20">
+                    <i class="fa-solid fa-shoe-prints"></i>
+                </div>
+                <span class="text-2xl font-extrabold tracking-tight text-slate-900">KICKS<span class="text-sky-600">VAULT</span></span>
+            </div>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex items-center gap-8 font-semibold text-sm text-gray-600">
+                <a href="#katalog" class="hover:text-sky-600 transition-colors">Katalog Sepatu</a>
+                <a href="#size-chart" class="hover:text-sky-600 transition-colors">Tabel Ukuran</a>
+                <a href="#pembayaran" class="hover:text-sky-600 transition-colors">Metode Pembayaran</a>
+                <a href="#kontak" class="hover:text-sky-600 transition-colors">Kontak</a>
+            </nav>
+
+            <a href="https://wa.me/6287740300821?text=Halo%20KicksVault,%20saya%20ingin%20bertanya%20mengenai%20produk%20sepatu" target="_blank" class="hidden sm:inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white px-5 py-2.5 rounded-full font-semibold text-sm transition-all shadow-md shadow-emerald-500/20">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+                <span>Hubungi WA</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-slate-900 text-white overflow-hidden py-16 lg:py-24">
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6 text-center lg:text-left">
+                <span class="inline-block bg-sky-500/10 text-sky-400 font-semibold px-4 py-1.5 rounded-full text-xs tracking-wider uppercase border border-sky-500/20">100% Original Brand New In Box (BNIB)</span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">
+                    Tampil Skena & Premium dengan Sepatu Impian
+                </h1>
+                <p class="text-gray-300 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 font-normal">
+                    Pusat jual beli sepatu baru branded terlengkap. Melayani pembelian <b>Cash</b> maupun <b>Angsuran (Cicilan)</b> via E-Wallet & Transfer Bank resmi.
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center lg:justify-start pt-2">
+                    <a href="#katalog" class="bg-sky-600 hover:bg-sky-500 text-white px-8 py-3.5 rounded-xl font-bold transition-all shadow-lg shadow-sky-600/30">Lihat Katalog</a>
+                    <a href="#pembayaran" class="bg-slate-800 hover:bg-slate-700 text-gray-200 border border-slate-700 px-8 py-3.5 rounded-xl font-bold transition-all">Skema Angsuran</a>
+                </div>
+            </div>
+            <div class="relative flex justify-center">
+                <div class="w-72 h-72 sm:w-96 sm:h-96 bg-sky-500/20 rounded-full blur-3xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+                <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80" alt="Nike Hero Shoe" class="relative z-10 w-full max-w-md rounded-2xl shadow-2xl object-cover transform -rotate-6 hover:rotate-0 transition-transform duration-500">
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter & Search Section -->
+    <section id="katalog" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
+            <div>
+                <h2 class="text-3xl font-extrabold text-slate-900">Katalog Sepatu Terbaru</h2>
+                <p class="text-gray-500 text-sm mt-1">Pilih model favoritmu dan pesan langsung via WhatsApp</p>
+            </div>
+            <!-- Filter Brand -->
+            <div class="flex items-center gap-2 overflow-x-auto pb-2 md:pb-0 no-scrollbar">
+                <button onclick="filterBrand('all')" class="brand-btn active bg-slate-900 text-white px-4 py-2 rounded-lg font-semibold text-sm whitespace-nowrap transition-all">Semua</button>
+                <button onclick="filterBrand('Nike')" class="brand-btn bg-white text-gray-700 hover:bg-gray-100 border border-gray-200 px-4 py-2 rounded-lg font-semibold text-sm whitespace-nowrap transition-all">Nike</button>
+                <button onclick="filterBrand('Adidas')" class="brand-btn bg-white text-gray-700 hover:bg-gray-100 border border-gray-200 px-4 py-2 rounded-lg font-semibold text-sm whitespace-nowrap transition-all">Adidas</button>
+                <button onclick="filterBrand('New Balance')" class="brand-btn bg-white text-gray-700 hover:bg-gray-100 border border-gray-200 px-4 py-2 rounded-lg font-semibold text-sm whitespace-nowrap transition-all">New Balance</button>
+                <button onclick="filterBrand('Jordan')" class="brand-btn bg-white text-gray-700 hover:bg-gray-100 border border-gray-200 px-4 py-2 rounded-lg font-semibold text-sm whitespace-nowrap transition-all">Jordan</button>
+            </div>
+        </div>
+
+        <!-- Grid Produk -->
+        <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Produk akan di-render melalui JavaScript -->
+        </div>
+    </section>
+
+    <!-- Size Chart Table Section -->
+    <section id="size-chart" class="bg-white py-16 border-t border-b border-gray-100 my-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-sky-600 font-bold text-sm uppercase tracking-wider">Panduan Ukuran</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Tabel Ukuran Sepatu (Size Chart)</h2>
+                <p class="text-gray-500 text-sm mt-2">Pastikan ukuran kaki Anda sesuai sebelum memesan untuk kenyamanan maksimal.</p>
+            </div>
+
+            <div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+                <table class="w-full text-left text-sm text-gray-600">
+                    <thead class="bg-slate-900 text-white uppercase text-xs tracking-wider">
+                        <tr>
+                            <th class="px-6 py-4">EU / Indonesia</th>
+                            <th class="px-6 py-4">US (Men)</th>
+                            <th class="px-6 py-4">UK</th>
+                            <th class="px-6 py-4">Panjang Kaki (CM)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200 font-medium">
+                        <tr class="hover:bg-slate-50">
+                            <td class="px-6 py-4 font-bold text-slate-900">39</td>
+                            <td class="px-6 py-4">6.5</td>
+                            <td class="px-6 py-4">5.5</td>
+                            <td class="px-6 py-4">24.5 cm</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50 bg-gray-50/50">
+                            <td class="px-6 py-4 font-bold text-slate-900">40</td>
+                            <td class="px-6 py-4">7</td>
+                            <td class="px-6 py-4">6</td>
+                            <td class="px-6 py-4">25 cm</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="px-6 py-4 font-bold text-slate-900">41</td>
+                            <td class="px-6 py-4">8</td>
+                            <td class="px-6 py-4">7</td>
+                            <td class="px-6 py-4">26 cm</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50 bg-gray-50/50">
+                            <td class="px-6 py-4 font-bold text-slate-900">42</td>
+                            <td class="px-6 py-4">8.5</td>
+                            <td class="px-6 py-4">7.5</td>
+                            <td class="px-6 py-4">26.5 cm</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="px-6 py-4 font-bold text-slate-900">43</td>
+                            <td class="px-6 py-4">9.5</td>
+                            <td class="px-6 py-4">8.5</td>
+                            <td class="px-6 py-4">27.5 cm</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50 bg-gray-50/50">
+                            <td class="px-6 py-4 font-bold text-slate-900">44</td>
+                            <td class="px-6 py-4">10</td>
+                            <td class="px-6 py-4">9</td>
+                            <td class="px-6 py-4">28 cm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment & Installment Section -->
+    <section id="pembayaran" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <span class="text-sky-600 font-bold text-sm uppercase tracking-wider">Metode Pembayaran</span>
+            <h2 class="text-3xl font-extrabold text-slate-900 mt-1">Cash & Skema Angsuran</h2>
+            <p class="text-gray-500 text-sm mt-2">Kami menerima berbagai kemudahan metode pembayaran untuk keamanan transaksi Anda.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- E-Wallet Card -->
+            <div class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-sky-100 text-sky-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6">
+                    <i class="fa-solid fa-wallet"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">E-Wallet (Cash & Angsuran)</h3>
+                <p class="text-gray-600 text-sm mb-6">Mendukung pembayaran langsung (Cash) maupun cicilan fitur PayLater via e-wallet terkemuka.</p>
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="border border-gray-200 rounded-xl p-3 text-center">
+                        <i class="fa-solid fa-mobile-screen text-2xl text-cyan-500 mb-1"></i>
+                        <p class="font-bold text-xs text-gray-700">DANA</p>
+                    </div>
+                    <div class="border border-gray-200 rounded-xl p-3 text-center">
+                        <i class="fa-solid fa-circle-notch text-2xl text-purple-600 mb-1"></i>
+                        <p class="font-bold text-xs text-gray-700">OVO</p>
+                    </div>
+                    <div class="border border-gray-200 rounded-xl p-3 text-center">
+                        <i class="fa-solid fa-bolt text-2xl text-emerald-500 mb-1"></i>
+                        <p class="font-bold text-xs text-gray-700">Gopay</p>
+                    </div>
+                </div>
+                <ul class="mt-6 space-y-2 text-xs text-gray-500">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-500"></i> Cash / Transfer Instan Bebas Biaya</li>
+                    <li class="flex items-center gap-2"><li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-500"></i> Angsuran via GoPayLater / OVO PayLater / Akulaku</li>
+                </ul>
+            </div>
+
+            <!-- Transfer Bank Card -->
+            <div class="bg-white p-8 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center font-bold text-xl mb-6">
+                    <i class="fa-solid fa-building-columns"></i>
+                </div>
+                <h3 class="text-xl font-bold text-slate-900 mb-2">Transfer Bank (Cash & Angsuran)</h3>
+                <p class="text-gray-600 text-sm mb-6">Pembayaran langsung ke rekening resmi toko atau cicilan menggunakan kartu kredit bank nasional.</p>
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="border border-gray-200 rounded-xl p-3 text-center">
+                        <i class="fa-solid fa-money-bill-transfer text-2xl text-blue-600 mb-1"></i>
+                        <p class="font-bold text-xs text-gray-700">BCA</p>
+                    </div>
+                    <div class="border border-gray-200 rounded-xl p-3 text-center">
+                        <i class="fa-solid fa-university text-2xl text-blue-800 mb-1"></i>
+                        <p class="font-bold text-xs text-gray-700">BRI</p>
+                    </div>
+                    <div class="border border-gray-200 rounded-xl p-3 text-center">
+                        <i class="fa-solid fa-kaaba text-2xl text-emerald-600 mb-1"></i>
+                        <p class="font-bold text-xs text-gray-700">BSI</p>
+                    </div>
+                </div>
+                <ul class="mt-6 space-y-2 text-xs text-gray-500">
+                    <li class="flex items-center gap-2"><li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-500"></i> Transfer Bank Langsung (Verifikasi Otomatis)</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-500"></i> Cicilan Kartu Kredit 0% (3, 6, 12 Bulan)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Detail & Spesifikasi Sepatu -->
+    <div id="product-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-gray-100">
+            <div class="p-6 sm:p-8">
+                <div class="flex justify-between items-start mb-4">
+                    <div>
+                        <span id="modal-brand" class="text-xs font-bold text-sky-600 tracking-wider uppercase">BRAND</span>
+                        <h3 id="modal-title" class="text-2xl font-extrabold text-slate-900">Nama Sepatu</h3>
+                    </div>
+                    <button onclick="closeModal()" class="text-gray-400 hover:text-gray-600 w-8 h-8 rounded-full flex items-center justify-center border border-gray-200">
+                        <i class="fa-solid fa-xmark text-lg"></i>
+                    </button>
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-6 mb-6">
+                    <img id="modal-image" src="" alt="Sepatu" class="w-full h-56 object-cover rounded-xl border border-gray-100">
+                    <div class="space-y-3">
+                        <div class="bg-slate-50 p-3 rounded-lg">
+                            <span class="text-xs text-gray-500 block">Harga Cash</span>
+                            <span id="modal-price" class="text-xl font-extrabold text-sky-600">Rp 0</span>
+                        </div>
+                        <div class="bg-slate-50 p-3 rounded-lg">
+                            <span class="text-xs text-gray-500 block">Estimasi Angsuran</span>
+                            <span id="modal-installment" class="text-sm font-bold text-slate-800">Mulai Rp 0 /bln</span>
+                        </div>
+                        <div class="flex justify-between text-sm py-1 border-b border-gray-100">
+                            <span class="text-gray-500">Stok Tersedia:</span>
+                            <span id="modal-stock" class="font-bold text-slate-800">0 Pasang</span>
+                        </div>
+                        <div class="flex justify-between text-sm py-1 border-b border-gray-100">
+                            <span class="text-gray-500">Pilihan Ukuran:</span>
+                            <span id="modal-sizes" class="font-bold text-slate-800">39 - 44</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <h4 class="font-bold text-slate-900 mb-2 text-sm uppercase tracking-wider">Spesifikasi Detail</h4>
+                    <ul id="modal-specs" class="space-y-1.5 text-xs text-gray-600 list-disc list-inside bg-gray-50 p-4 rounded-xl">
+                        <!-- Specs List Injection -->
+                    </ul>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-3 pt-2">
+                    <button id="modal-wa-btn" onclick="" class="flex-1 bg-emerald-500 hover:bg-emerald-600 text-white py-3 px-4 rounded-xl font-bold flex items-center justify-center gap-2 transition-all">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                        <span>Pesan via WA (087740300821)</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="kontak" class="bg-slate-900 text-gray-400 mt-auto border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-8 h-8 bg-sky-500 text-white rounded-lg flex items-center justify-center font-bold text-sm">
+                            <i class="fa-solid fa-shoe-prints"></i>
+                        </div>
+                        <span class="text-xl font-extrabold text-white">KICKS<span class="text-sky-500">VAULT</span></span>
+                    </div>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Toko sepatu branded baru terpercaya. Semua produk dijamin 100% Original Brand New In Box (BNIB). Melayani pengiriman ke seluruh Indonesia.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-wider">Layanan Pelanggan</
